@@ -1,0 +1,30 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakesh5777/intro.git"
+  },
+  "author": "rakesh.k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakesh5777/intro/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "prettier --write . && git add -A ."
+    }
+  },
+  "homepage": "https://github.com/Rakesh5777/intro#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2"
+  }
+}

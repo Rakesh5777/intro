@@ -18,7 +18,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"Error: no test specified\" "
+      "pre-commit": "echo \"Error: no test specified\" ",
+      "pre-push": "echo \" push done\""
     }
   },
   "homepage": "https://github.com/Rakesh5777/intro#readme",

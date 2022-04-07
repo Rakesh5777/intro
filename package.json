@@ -16,16 +16,16 @@
   "bugs": {
     "url": "https://github.com/Rakesh5777/intro/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"Error: no test specified \" ",
-      "pre-push": "echo \" push done\""
-    }
-  },
   "homepage": "https://github.com/Rakesh5777/intro#readme",
   "dependencies": {},
   "devDependencies": {
     "husky": "^7.0.4",
     "prettier": "^2.6.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"Error: no test specified \" ",
+      "pre-push": "echo \" push done\""
+    }
   }
 }
